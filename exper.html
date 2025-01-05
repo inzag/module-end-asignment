@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="tourism.css">
+</head>
+<body>
+   
+    <header class="bg-light">
+        <div id="cont1" class="container py-3 text-center">
+            <img id="img2" src="kerala-vector-illustration.webp">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Tourism</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Kerala</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Top Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Districts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container my-5">
+        <section>
+            <h1 style="color: rgb(59, 150, 23);" class="text-success text-center">Come and Enjoy Our Culture</h1>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary me-2">Learn More</a>
+                <a href="#" class="btn btn-outline-secondary">Contact Us</a>
+            </div>
+        </section>
+
+        <section class="kerala">
+            <h2>About Kerala</h2>
+            <p>Kerala, a state situated on the tropical Malabar Coast of southwestern India, is one of the most popular tourist destinations in the country...</p>
+            <img  id="img3" src="jadayu.jpg" alt="Kerala Map" class="img-fluid">
+        </section>
+
+        <section class="places">
+            <h2 style="color: rgb(63, 172, 31);" class="text-success">Top Destinations</h2><br>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h4>Alappuzha</h4>
+                    <img src="tourism photo2.jpg" alt="keralamap" class="img-fluid">
+                    <p>Alappuzha, also known as Alleppey, is famous for its houseboat cruises along the rustic Kerala backwaters...</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Ponmudi</h4>
+                    <img src="ponmudi.jpg" alt="keralamap" class="img-fluid">
+                    <p>Ponmudi is a hill station in the Thiruvananthapuram district of Kerala...</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Munnar</h4>
+                    <img src="munnar.jpg" alt="keralamap" class="img-fluid">
+                    <p>Munnar is a town in the Western Ghats known for its tea plantations and natural beauty...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="districts">
+            <h2>Districts of Kerala</h2>
+            <img id="img1" src="keralamap.png" alt="Kerala Map" class="img-fluid">
+            <ul class="list-unstyled mt-3">
+                <li><a href="#">Trivandrum</a></li>
+                <li><a href="#">Kollam</a></li>
+                <li><a href="#">Pathanamthitta</a></li>
+                <li><a href="#">Alappuzha</a></li>
+                <li><a href="#">Kottayam</a></li>
+                <li><a href="#">Idukki</a></li>
+                <li><a href="#">Ernakulam</a></li>
+                <li><a href="#">Thrissure</a></li>
+                <li><a href="#">Palakkad</a></li>
+                <li><a href="#">Malappuram</a></li>
+                <li><a href="#">Kozhikode</a></li>
+                <li><a href="#">Kannur</a></li>
+                <li><a href="#">Wayanad</a></li>
+                <li><a href="#">Kazargod</a></li>
+                
+                
+                
+            </ul>
+        </section>
+
+        <section class="form">
+            <h2>Fill to Explore</h2>
+            <form>
+                <div class="persenal">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="mail">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="details">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" id="phone" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-control" rows="4" required></textarea>
+                </div>
+                <div class="or">
+                    <label>Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="Male" class="form-check-input">
+                    <label for="male" class="form-check-label">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" class="form-check-input ms-3">
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+                <div class="mb-3">
+                    <label for="visit-date" class="form-label">Expected Date to Visit</label>
+                    <input type="date" id="visit-date" class="form-control" required>
+                </div>
+                <div class="option">
+                    <label>Preferred Language</label><br>
+                    <input type="checkbox" id="english" value="English" class="form-check-input">
+                    <label for="english" class="form-check-label">English</label>
+                    <input type="checkbox" id="hindi" value="Hindi" class="form-check-input ms-3">
+                    <label for="hindi" class="form-check-label">Hindi</label>
+                    <input type="checkbox" id="malayalam" value="Malayalam" class="form-check-input ms-3">
+                    <label for="malayalam" class="form-check-label">Malayalam</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer class="bg-light text-center py-3 mt-5">
+        &copy; 2025 Tourism Kerala
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
